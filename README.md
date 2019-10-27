@@ -1,5 +1,5 @@
 # Aiohttp Server
-[![Python](https://img.shields.io/badge/python-3.7-blue.svg)]() [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat)](/LICENSE)
+[![Build Status](https://travis-ci.org/alefeans/aiohttp-server.svg?branch=master)](https://travis-ci.org/alefeans/aiohttp-server) [![Python](https://img.shields.io/badge/python-3.7-blue.svg)]() [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat)](/LICENSE)
 
 An extensible [Aiohttp](https://docs.aiohttp.org/en/stable/) Restful API template. You can just clone this repo and start to create/customize your own RESTful API using this code as your template base :)
 
