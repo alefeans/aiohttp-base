@@ -1,5 +1,5 @@
-# Aiohttp Server
-[![Build Status](https://travis-ci.org/alefeans/aiohttp-server.svg?branch=master)](https://travis-ci.org/alefeans/aiohttp-server) [![Python](https://img.shields.io/badge/python-3.7-blue.svg)]() [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat)](/LICENSE)
+# Aiohttp Base
+[![Build Status](https://travis-ci.org/alefeans/aiohttp-base.svg?branch=master)](https://travis-ci.org/alefeans/aiohttp-server) [![Python](https://img.shields.io/badge/python-3.7-blue.svg)]() [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat)](/LICENSE)
 
 An extensible [Aiohttp](https://docs.aiohttp.org/en/stable/) Restful API template. You can just clone this repo and start to create/customize your own RESTful API using this code as your template base :)
 
@@ -7,10 +7,10 @@ An extensible [Aiohttp](https://docs.aiohttp.org/en/stable/) Restful API templat
 
 ## Installing
 
-To install the Aiohttp Server you will need to:
+To install the Aiohttp Base you will need to:
 
 ```
-git clone https://github.com/alefeans/aiohttp-server.git && cd aiohttp-server
+git clone https://github.com/alefeans/aiohttp-base.git && cd aiohttp-base
 pip install -r requirements.txt
 ```
 
@@ -28,16 +28,16 @@ python run.py
 ### Build
 
 ```
-docker build -t aiohttp-server .
+docker build -t aiohttp-base .
 ```
 
 ### Start a New Container
 
 ```
 docker run -d \
---name aiohttp-server \
+--name aiohttp-base \
 -p 5000:5000 \
-aiohttp-server
+aiohttp-base
 ```
 
 ## Swagger
