@@ -9,7 +9,7 @@ cchardet==2.1.4
 certifi==2019.9.11
 cffi==1.13.1
 chardet==3.0.4
-codecov==2.0.15
+codecov==2.0.16
 coverage==4.5.4
 filelock==3.0.12
 gunicorn==19.9.0
